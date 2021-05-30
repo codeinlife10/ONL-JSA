@@ -38,13 +38,64 @@
 // })]
 
 
+
+
+
+
+
+
+
+//database
+var usersData = [
+    {
+        username : "John",
+        Email : "John123@gmail.com",
+        password : "John1234",
+        avatar : "John Doe.png"
+    },
+    {
+        username : "Mark",
+        Email : "Mark234@gmail.com",
+        password : "Markiplier123",
+        avatar : "Markiplier2017.jpg"
+    },
+    {
+        username: "Joe",
+        Email : "Joe345@gmail.com",
+        password : "Joey009",
+        avatar : "Joey avatar.jpg"
+    }
+]
 // Cách làm nhanh của form 
 let form = document.getElementById("info")
+let error = document.getElementById("error")
 
 form.addEventListener("submit", (e)=> {
-    // e.stopPropagation()
     e.preventDefault()
-    console.log(form.username.value)
-    console.log(form.psw.value)
 
+    for (let i = 0; i < usersData.length; i++) {
+
+        if(usersData[i].username == form.username.value) {
+            if(usersData[i].password == form.psw.value) {
+                window.location.replace("shopping.html")
+                break
+            }else{
+                error.innerText = "Bạn nhập sai username hoặc password"
+            } 
+        }else {
+            error.innerText = "Bạn nhập sai username hoặc password"
+        }
+    }
 })
+
+
+// Tuấn 
+
+// src ảnh 
+// Tên sản phẩm
+// Giá sản phẩm 
+
+//database => Chứa dữ liệu về các sản phẩm của website 
+
+
+ 

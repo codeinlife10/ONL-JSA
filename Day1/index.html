@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="index.css">
    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
 
     <title>Document</title>
 </head>
@@ -18,7 +18,8 @@
             <div class="main_input">
                 <h1 style="margin-left: 16px;margin-top:20px">Sign in</h1>
                 <p style="margin-left: 16px;margin-bottom:16px;">Stay updated on your professional world</p>
-                <input type="email" name="username" placeholder="Enter your username" class="input1"> <br>
+                <div id="error" style="text-align:center;color: red;"></div>
+                <input type="text" name="username" placeholder="Enter your username" class="input1"> <br>
                 <input type="password" name="psw" placeholder="Enter your password"> </br>
                 <p class="forgot"><a href="#123" >Forgot password ?</a></p>
                 <button type="submit" class='btn_inline btnfix'>Sign in</button>
