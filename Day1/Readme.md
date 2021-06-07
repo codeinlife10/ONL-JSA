@@ -10,7 +10,7 @@ Array - Object
 
 
     
-2. Bài tập về nhà : 
+2. Bài tập về nhà buổi 1 : 
     Nghĩ cách viết 1 đoạn code js để so sánh giá trị người dùng nhập vào với mảng ở trên, nếu trùng với một object về Email và Password 
     thì chuyển hướng người dùng tới 1 trang html khác gọi là shopping.html 
 => Gợi ý : Trùng hay không là so sánh 2 giá trị với nhau
