@@ -15,3 +15,12 @@ Array - Object
     thì chuyển hướng người dùng tới 1 trang html khác gọi là shopping.html 
 => Gợi ý : Trùng hay không là so sánh 2 giá trị với nhau
            Phải trùng cả email và password mới gọi là trùng => Điều kiện đồng thời (search thử nhé các bạn)
+
+
+3. Bài tập về nhà: 
+_ Đọc trước và tìm hiểu về localStorage
+_ Nghĩ hướng giải quyết cho bài toán shopping
+    Khi ấn vào 1 sản phẩm làm sao để lưu sản phẩm đó lại 
+    Khi ấn vào biểu tượng cart thì sẽ lấy những sản phẩm được lưu
+    sang 1 trang khác và tính giá tiền cho các sản phẩm đó
+    

@@ -88,14 +88,8 @@ form.addEventListener("submit", (e)=> {
     }
 })
 
-
-// Tuấn 
-
 // src ảnh 
 // Tên sản phẩm
 // Giá sản phẩm 
 
 //database => Chứa dữ liệu về các sản phẩm của website 
-
-
- 
