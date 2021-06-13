@@ -24,3 +24,6 @@ _ Nghĩ hướng giải quyết cho bài toán shopping
     Khi ấn vào biểu tượng cart thì sẽ lấy những sản phẩm được lưu
     sang 1 trang khác và tính giá tiền cho các sản phẩm đó
     
+4. Bài tập về nhà: 
+_ Tìm hiểu về animation trong html css 
+_ Tính toán và in ra tổng giá tiền trong 1 div nào đó trên html 
