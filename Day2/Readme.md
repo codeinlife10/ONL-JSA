@@ -24,3 +24,18 @@ let obj = {
     }
 }
 obj.getName()
+
+
+
+
+// this
+function tinhgiaithua(x) {
+    return x
+}
+
+const tinhgiaithua = (x) => x
+
+let tinhgiaithua(x) = x
+
+
+
